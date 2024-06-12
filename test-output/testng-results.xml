@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-02T19:56:57 IST" name="Suite" finished-at="2024-05-02T19:56:58 IST" duration-ms="442">
+    <groups>
+    </groups>
+    <test started-at="2024-05-02T19:56:57 IST" name="smoke" finished-at="2024-05-02T19:56:58 IST" duration-ms="442">
+      <class name="TestngProject.testng1.first">
+        <test-method signature="demo()[pri:0, instance:TestngProject.testng1.first@242b836]" started-at="2024-05-02T19:56:58 IST" name="demo" finished-at="2024-05-02T19:56:58 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method signature="second()[pri:0, instance:TestngProject.testng1.first@242b836]" started-at="2024-05-02T19:56:58 IST" name="second" finished-at="2024-05-02T19:56:58 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- second -->
+        <test-method signature="third(java.lang.String,java.lang.String)[pri:0, instance:TestngProject.testng1.first@242b836]" started-at="2024-05-02T19:56:58 IST" name="third" data-provider="getData" finished-at="2024-05-02T19:56:58 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- third -->
+        <test-method signature="third(java.lang.String,java.lang.String)[pri:0, instance:TestngProject.testng1.first@242b836]" started-at="2024-05-02T19:56:58 IST" name="third" data-provider="getData" finished-at="2024-05-02T19:56:58 IST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[varun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- third -->
+        <test-method signature="third(java.lang.String,java.lang.String)[pri:0, instance:TestngProject.testng1.first@242b836]" started-at="2024-05-02T19:56:58 IST" name="third" data-provider="getData" finished-at="2024-05-02T19:56:58 IST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tarun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- third -->
+      </class> <!-- TestngProject.testng1.first -->
+      <class name="TestngProject.testng1.second">
+        <test-method is-config="true" signature="second1()[pri:0, instance:TestngProject.testng1.second@6e6f2380]" started-at="2024-05-02T19:56:57 IST" name="second1" finished-at="2024-05-02T19:56:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- second1 -->
+        <test-method signature="demo()[pri:0, instance:TestngProject.testng1.second@6e6f2380]" started-at="2024-05-02T19:56:58 IST" name="demo" finished-at="2024-05-02T19:56:58 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="third()[pri:0, instance:TestngProject.testng1.second@6e6f2380]" started-at="2024-05-02T19:56:58 IST" name="third" finished-at="2024-05-02T19:56:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- third -->
+      </class> <!-- TestngProject.testng1.second -->
+      <class name="TestngProject.testng1.third">
+        <test-method is-config="true" signature="demo()[pri:0, instance:TestngProject.testng1.third@76a4ebf2]" started-at="2024-05-02T19:56:57 IST" name="demo" finished-at="2024-05-02T19:56:57 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method signature="second()[pri:0, instance:TestngProject.testng1.third@76a4ebf2]" started-at="2024-05-02T19:56:58 IST" name="second" finished-at="2024-05-02T19:56:58 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- second -->
+        <test-method signature="third1()[pri:0, instance:TestngProject.testng1.third@76a4ebf2]" started-at="2024-05-02T19:56:58 IST" name="third1" finished-at="2024-05-02T19:56:58 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- third1 -->
+      </class> <!-- TestngProject.testng1.third -->
+    </test> <!-- smoke -->
+  </suite> <!-- Suite -->
+</testng-results>

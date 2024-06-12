@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	<test name="smoke">
+   <classes>
+	<class name="TestngProject.testng1.first"></class>
+	<class name="TestngProject.testng1.second"></class>
+	<class name="TestngProject.testng1.third"></class>
+	</classes>
+	</test>
+	
+
+	
+
+</suite> <!-- Suite -->
